@@ -19,6 +19,7 @@ body {
     padding: 12px 20px;
 }
 .nav-tittle{
+ 
     font-family: Mulish;
     font-size: 36px;
     font-style: normal;
@@ -35,7 +36,7 @@ body {
  }
  .logo{
     margin-top: 50px;
-    margin-left: 30px;
+    margin-left: 55px;
     display: flex;
  }
 .logo img {width: 40px;}
@@ -50,7 +51,7 @@ body {
 .menu li a {
     display: inline-block;
     text-decoration: none;
-   color: var(--Dark-02, #424247);
+    color: var(--Dark-02, #424247);
     text-align: center;
     transition: 0.15s ease-in-out;
     position: relative;
@@ -90,8 +91,436 @@ line-height: normal;
     right: 20px;
 }
 #check {display: none;}
+
+.banner-container-style{
+    color: rgba(19, 19, 24, 0.50);
+    width: 174px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+
+border: none;
+}
+.banner-container-style1{
+    border-radius: 8px;
+background: #FF5400;
+width: 174px;
+height: 52px;
+flex-shrink: 0;
+border: none;
+color: #FFF;
+
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.banner-container-style0{
+    padding-top: 9px;
+    color: rgba(19, 19, 24, 0.50);
+    width: 174px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+
+border: none;
+}
+.banner{
+    border-radius: 16px;
+background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    text-align: center;
+    margin-top: 30px;
+   padding-top: 40px;
+    margin-left: 100px;
+    width: 1170px;
+height: 500px;
+flex-shrink: 0;
+}
+.banner-item{
+    color: #FFF;
+font-family: Mulish;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.banner-item1{
+    padding-top: 20px;
+   position: relative;
+   left: 170px;
+
+    width: 70%;
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.banner-input-container{
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+    
+    margin-top: 30px;
+    align-items: center;
+    margin-left: 130px;
+}
+
+.style-frame {
+   position: relative;
+   top: 7px;
+   left: 29px;
+}
+.style-frame1{
+    position: relative;
+    top: 7px;
+    left: 14px;
+}
+.style-frame2{
+    position: relative;
+    top: 7px;
+    right: 15px;
+}
+.body-container1{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.body-container1 img{
+    position: relative;
+    right: 75px;
+    height: 80vh;
+
+}
+.style1{
+    color: #131318;
+
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+.style2{
+    margin-top: 30px;
+
+    width: 77%;
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+
+}
+.style2 li{
+    
+    width: 77%;
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+}
+.btn{
+    margin-top: 30px;
+    border-radius: 8px;
+background: #FF5400;
+width: 174px;
+height: 52px;
+flex-shrink: 0;
+border: none;
+color: #FFF;
+
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.body-container2-item{
+    width: 70%;
+    text-align: center;
+    margin-left: 190px;
+    margin-top: 60px;
+}
+.style3{
+    color: #131318;
+
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.style4{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+.Maldives{
+    position: absolute;
+    margin-top: 150px;
+    padding-left: 230px;
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+.Indonesia{
+    position: absolute;
+    margin-top: 150px;
+    padding-left: 230px;
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.body-container3-item{
+    margin-top: 40px;
+    margin-left: 90px;
+    display: flex;
+    gap: 30px;
+    
+}
+.Srilanka{
+    position: absolute;
+    margin-top: 150px;
+   padding-right: 300px;
+    padding-left: 150px;
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.North-America{
+    position: absolute;
+    margin-top: 150px;
+    padding-right: 300px;
+    padding-left: 150px;
+    color:#FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+.Kashmir{
+    position: absolute;
+    margin-top: 150px;
+    padding-right: 300px;
+    padding-left: 110px;
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.body-container4-item{
+    margin-top: 40px;
+    margin-left: 90px;
+    display: flex;
+    gap: 30px;
+    
+}
+.Bangladesh{
+    position: absolute;
+    margin-top: 150px;
+   padding-right: 300px;
+    padding-left: 150px;
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.Bandarban{
+    position: absolute;
+    margin-top: 150px;
+   padding-right: 300px;
+    padding-left: 150px;
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.body-container5-item{
+    margin-top: 40px;
+    margin-left: 90px;
+    display: flex;
+    gap: 30px;
+    
+}
+
+
+.style5{
+    margin-top: 20px;
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.style6{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 230px;
+    width: 60%;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.style7{
+    margin-top: 20px;
+    color: #131318;
+  margin-left: 70px;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.style8{
+    color: rgba(19, 19, 24, 0.70);
+    
+    margin-top: 20px;
+    margin-left: 70px;
+    width: 60%;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.style9{
+    margin-top: 20px;
+    color: #131318;
+
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.style10{
+    color: rgba(19, 19, 24, 0.70);
+    
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 60%;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+.item-img{
+    padding-top: 10px;
+    margin-left: 60px;
+}
+.item-img1{
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.bac-color1{
+    width: 573px;
+height: 320px;
+flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.bac-color2{
+    width: 573px;
+height: 320px;
+flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.body-container7-item{
+    margin-top: 50px;
+    margin-left: 80px;
+    gap: 30px;
+    display: flex;
+    
+}
+.style11{
+    margin-top: 20px;
+    color: #131318;
+
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.style12{
+    color: rgba(19, 19, 24, 0.70);
+    
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 60%;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.body-container8-item{
+    margin-left: 340px;
+    margin-top: 50px;
+    width: 573px;
+height: 284px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+}
 @media(max-width: 600px) {
+    .logo{
+        position: relative;
+        right: 60px;
+    }
     .menu {
+        
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -104,8 +533,214 @@ line-height: normal;
         background-color: var(--color2);
         transition: all 0.2s ease-in-out;
     }
-    .menu li {margin-top: 40px;}
-    .menu li a {padding: 10px;}
-    .open-menu , .close-menu {display: block;}
+    .menu li {
+        
+        margin-top: 40px;
+    }
+    .menu li a {padding: 10px; background-color: #1bd6cd;}
+    .open-menu , .close-menu {
+        display: block;
+    }
     #check:checked ~ .menu {right: 0;}
+    .banner{
+       width: 90%;
+       position: relative;
+       right: 73px;
+        margin-right: 500px;
+       background-size: cover;
+       background-position: 48%;
+       height: auto;
+      
+       
+        
+        background-repeat: no-repeat;
+        
+    }
+    .banner-item{
+        font-size: 2rem;
+       
+    }
+    .banner-item1{
+        width: 70%;
+      text-align: center;
+        position: relative;
+        bottom: 20px;
+       left: 58px;
+        font-size: 10px;
+     
+      
+    }
+    .banner-input-container{
+        flex-direction: column;
+       position: relative;
+       right: 70px;
+       bottom: 40px;
+        margin-right: 140px;
+        width: 80%;
+    }
+   .body-container1{
+    text-align: left;
+    width: 90%;
+    flex-direction: column;
+   }
+   .style1{
+    position: relative;
+    right: 68px;
+
+   }
+   .style2{
+    position: relative;
+    right: 68px;  
+   }
+   .body-container1 img{
+    margin-top: 18px;
+
+   }
+   .btn{
+    position: relative;
+    right: 68px;
+
+   }
+   .body-container2-item{
+    margin-left: 90px;
+    width: 68%;
+    
+   }
+   .style3{
+    text-align: center;
+    width: 90%;
+    
+    
+   
+   }
+   .body-container3-item  {
+     
+    
+   
+
+     flex-direction: column;
+   }
+   .body-container3-item img {
+    width: 355px;
+            height: 275.393px;
+            flex-shrink: 0;
+            position: relative;
+            right: 25px;
+            margin-right: 10px;
+
+   }
+   .Maldives{
+    top: 110px;
+    position: relative;
+    right: 130px;
+    z-index: 1;
+    height: 90vh;
+
+   }
+   .Indonesia{
+    
+    position: relative;
+    
+    top: 120px;
+    right: 130px;
+    z-index: 1;
+    height: 90vh;
+   }
+   .body-container4-item{
+    
+    flex-direction: column;
+  
+  
+   }
+   .body-container4-item img{
+    width: 355px;
+            height: 275.393px;
+            flex-shrink: 0;
+            position: relative;
+            right: 25px;
+            margin-right: 10px;
+
+   }
+    .Srilanka{
+        
+        position: absolute;
+        right: 10px;
+        left: 50px;
+        z-index: 1;
+    
+   
+   ;}
+    .North-America{
+       
+        position: absolute;
+       
+        right: 10px;
+        left: 50px;
+        z-index: 1;}
+     .Kashmir{
+        position: absolute;
+        right: 10px;
+        left: 50px;
+        z-index: 1;}
+        .body-container5-item{
+            flex-direction: column;
+        }
+        .body-container5-item img{
+            width: 355px;
+            height: 275.393px;
+            flex-shrink: 0;
+            position: relative;
+            right: 25px;
+            margin-right: 10px;
+            
+        }
+        .Bangladesh{
+            position: absolute;
+            right: 10px;
+            left: 50px;
+            z-index: 1;
+        }
+        .Bandarban{
+            position: absolute;
+            right: 10px;
+            padding-bottom: 100px;
+            left: 50px;
+            z-index: 1;
+        }
+        .style5{
+            position: relative;
+            left: 20px;
+        }
+        .style6{
+             position: relative;
+             right: 110px;
+        }
+       
+       .body-container7-item{
+        flex-direction: column;
+        
+       }
+       .bac-color1{
+        margin-top: 20px;
+        width: 97%;
+        background-size: cover;
+        background-size: 69%;
+        height: 90vh;
+       }
+        .bac-color2{
+            margin-top: 20px;
+        width: 97%;
+        background-size: cover;
+        background-size: 69%;
+        height: 90vh;
+       }
+       .body-container8-item{
+        margin-top: 20px;
+        width: 80%;
+        
+        background-size: 40%;
+        height: 90vh;
+        position: relative;
+        right: 270px;
+       }
 }
