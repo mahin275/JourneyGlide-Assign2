@@ -514,6 +514,66 @@ border-radius: 16px;
 border: 1px solid rgba(233, 68, 68, 0.20);
 background: rgba(233, 68, 68, 0.05);
 }
+
+.Newsletter{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.Newsletter-p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.input-table1{
+    border: none;
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.input-table2{
+    margin-top: 10px;
+    border: none;
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.btn3{
+margin-top: 20px;
+    border-radius: 8px;
+background: #FF5400;
+width: 393px;
+height: 52px;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.body-container9-item{
+    
+  gap: 20px;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 30px;
+    padding: 50px;
+    width: 80%;
+height: 60vh;
+background: #FFF;
+}
 @media(max-width: 600px) {
     .logo{
         position: relative;
@@ -742,5 +802,22 @@ background: rgba(233, 68, 68, 0.05);
         height: 90vh;
         position: relative;
         right: 270px;
+       }
+       .news{
+        position: relative;
+        right: 130px;
+       }
+       .body-container9-item{
+        width: 70%;
+       flex-direction: column;
+       margin-right: 40px;
+       }
+       .body-img{
+        width: 20%;
+        margin-top: 40px;
+        position: relative;
+        right: 140px;
+      background-size: cover;
+  
        }
 }
